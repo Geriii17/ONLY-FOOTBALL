@@ -1,0 +1,9 @@
+.titulo-pag{
+    background-color:rgb(223, 226, 230);
+}
+.container-fluid{
+    background-color: rgb(223, 226, 230);
+}
+#Conocenos{
+    display: flex;
+}
