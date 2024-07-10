@@ -54,7 +54,7 @@
                         <a class="nav-link" href="#Contacto">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="registrate.html">registrate</a>
+                        <a class="nav-link" href="registrate.html">Registrate</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -64,99 +64,41 @@
             </div>
         </div>
     </nav>
-    <!--CARRUSEL-->
-    <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/1.webp" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="img/2.webp" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="img/3.webp" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+    <p class="linea"></p>
+    <div class="ingresa">
+        <form>
+            <h1>Bienvenido, ingresa tus datos</h1>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="fecha">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label>Sexo:</label>
+            <label for="femenino">
+                <input type="radio" id="femenino" name="sexo" value="femenino" required> Femenino
+            </label>
+            <label for="masculino">
+                <input type="radio" id="masculino" name="sexo" value="masculino" required> Masculino
+            </label>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="repetir-password">Repetir Contraseña:</label>
+            <input type="password" id="repetir-password" name="repetir-password" required>
+
+            <a href="cuenta.html" class="registrate-registrate">
+                <h1>Registrarse</h1>
+            </a>
+        </form>
     </div>
-    <hr>
-    <hr class="border border-primary border-5 opacity-75">
-    <h2 id="Ofertas">Ofertas</h2>
-    <p>todo ofertas</p>
-    <h2 id="poleras">Indumentarios</h2>
-    <p>poleras/entrenamiento,shorts,corta viento,buzo,</p>
-    <h2 id="Zapatos">Calzado</h2>
-    <p>zapatos,zapatillas,sandalias</p>
-    <h2 id="accesorios">accesorios</h2>
-    <p>medias termicas/largas,canilleras,guantes,gorros deportivos,llaveros,mochila/bolso,arcos,malla futbol tenis</p>
-
-
-
-
-
-    <!--seccion conocenos-->
-    <h3>Conocenos</h3>
-    <div id="Conocenos">
-        <!--tarjeta conocenos-->
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-        <!--tarjeta conocenos-->
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <!--seccion contacto-->
-    <h2 id="Contacto">Contacto</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, at.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
